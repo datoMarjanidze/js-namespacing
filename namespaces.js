@@ -27,11 +27,7 @@ var NAMESPACE = function(){
         data: [],
         x: 1
     }
-    return {
-        one: one,
-        two: two,
-        three: three
-    }
+    return { one, two, three }
 }()
 
 with(NAMESPACE.one){
